@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 public class MyLambda {
@@ -20,6 +21,10 @@ public class MyLambda {
 
 
     public static void main(String[] args) {
+
+        new MyLambda().acceptsFunction(opti -> {
+            System.out.println(opti);
+        });
 
         method1();
         method2();
@@ -58,6 +63,7 @@ public class MyLambda {
             System.out.println(number);
         }
 
+
         numbers.forEach(value -> System.out.println(value));
         numbers.forEach(System.out::println);
 
@@ -79,7 +85,7 @@ public class MyLambda {
     }
 
 
-    public static int sumAll(@NotNull List<Integer> numbers, Predicate<Integer> p) {  //Method BP
+    public static int sumAll( List<Integer> numbers, Predicate<Integer> p) {  //Method BP
         int total = 0;
         for (int number : numbers) {
             if (p.test(number)) {
@@ -115,6 +121,10 @@ public class MyLambda {
             e.printStackTrace();
         }
         System.out.println("recompile -> reload");
+
+    }
+
+    void acceptsFunction(Consumer<String> foo){
 
     }
 }

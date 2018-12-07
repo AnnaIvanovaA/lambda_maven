@@ -1,7 +1,6 @@
 package com.jet.SmartStepInto;
 
-import org.jetbrains.annotations.Contract;
-import org.jetbrains.annotations.NotNull;
+
 
 public class SmartStepInto {
 
@@ -18,13 +17,11 @@ public class SmartStepInto {
         System.out.println("smth");
     }
 
-    @NotNull
-    @Contract(pure = true)
+
     public static String foo(){
         return "foo";
     }
-    @NotNull
-    @Contract(pure = true)
+
     public static String boo(){
         return "boo";
     }

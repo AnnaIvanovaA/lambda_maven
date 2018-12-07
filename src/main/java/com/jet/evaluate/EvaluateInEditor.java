@@ -4,6 +4,7 @@ import com.jet.rendererTypeCheck.LongString;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class EvaluateInEditor {
@@ -11,9 +12,17 @@ public class EvaluateInEditor {
     public static void main(String[] args) {
 
 
-        String s = "Hello, World!\nHello, World!";
+        String strr = "Hello, World!\nHello, World!";
 
 
+        //Evaluate
+        for (String s : Arrays.asList("sad", "sd")) {
+            if (s.equals("sdf")) {
+                return;
+            }
+        }
+        Runnable xxxxx = () -> System.out.println(1);
+        //
 
         BigDecimal one = BigDecimal.ONE;
 
