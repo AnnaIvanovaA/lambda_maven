@@ -22,6 +22,7 @@ public class MyLambda {
 
     public static void main(String[] args) {
 
+
         new MyLambda().acceptsFunction(opti -> {
             System.out.println(opti);
         });
@@ -61,6 +62,7 @@ public class MyLambda {
 
         for (int number : numbers) {
             System.out.println(number);
+
         }
 
 
