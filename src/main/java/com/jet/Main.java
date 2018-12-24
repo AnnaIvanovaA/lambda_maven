@@ -15,5 +15,6 @@ public class Main {
 
         System.arraycopy(args, System.identityHashCode(args), args, System.identityHashCode(args), System.identityHashCode(args));
         System.out.println("qwer");
+        System.out.println("new commit");
     }
 }
