@@ -8,3 +8,5 @@ public class QuickEval {
         ((Runnable) () -> System.out.println(25)).run();
     }
 }
+
+//
