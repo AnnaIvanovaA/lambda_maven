@@ -1,4 +1,4 @@
-package com.jet.SmartStepInto;
+package com.jet.Stepping;
 
 public class SmartStepAlreadyExecuted2 {
     public static void main(String[] args) {

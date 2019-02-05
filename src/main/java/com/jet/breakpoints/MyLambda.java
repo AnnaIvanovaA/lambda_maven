@@ -2,10 +2,8 @@ package com.jet.breakpoints;
 
 import org.jetbrains.annotations.NotNull;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.io.IOException;
+import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
@@ -77,13 +75,21 @@ public class MyLambda {
         Collections.sort(names, (a, b) -> b.compareTo(a));
         names.forEach(System.out::println);
 
-        int v = testMethod(8);
+        int v = testMethod(null);
         int k = testMethod(6);
+        voidMethod(8);
+        voidMethod(6);
 
     }
 
-    public static int testMethod(int value) {
-        return value + 3;
+    public static int testMethod(@NotNull Integer value) {
+        System.out.println("do smth");
+        return value + 5;
+    }
+
+    public static void voidMethod(@NotNull Integer value) {
+        MyLambda.var = Integer.toString(value);
+        MyLambda.var = Integer.toString(value+3);
     }
 
 

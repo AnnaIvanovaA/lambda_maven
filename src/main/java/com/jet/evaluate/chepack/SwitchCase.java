@@ -78,7 +78,7 @@ public class SwitchCase {
             default: monthName.setMonthString("Invalid month");
                 break;
         }
-        System.out.println(monthName.getMonthString());
+       monthName.getMonthString();
     }
 
     public static String returnMonth(){

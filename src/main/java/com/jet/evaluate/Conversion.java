@@ -23,7 +23,6 @@ public class Conversion {
         -2^63 .. 2^63-1
 
         float to double
-
         */
         int iVar = 2147483647;
         float floatInt = (float) iVar + 10;

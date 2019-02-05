@@ -1,4 +1,4 @@
-package com.jet.SmartStepInto;
+package com.jet.Stepping;
 
 import java.util.HashMap;
 import java.util.Iterator;

@@ -26,7 +26,6 @@ public class Program {
     public static void main(String[] args) throws InterruptedException {
         for (int i = 0; i < 10; i++)
             new Thread(new MyRunnable()).start();
-
         Thread.sleep(5000);
         // Signal to threads (mb not to all 10, but which are started waiting)
         synchronized (signal) {

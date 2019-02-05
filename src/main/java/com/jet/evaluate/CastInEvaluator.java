@@ -6,6 +6,9 @@ public class CastInEvaluator {
 
     public static void main(String[] args) {
 
+        int a = 5;
+        System.out.println((Object)a);
+
         //Expected result: ClassCastException
         // Cannot cast 'com.jet.evaluate.CastInEvaluator$1Local' to 'com.jet.evaluate.CastInEvaluator'
         //evaluate (Local)l, see the error Cannot cast 'my.eval.casts.CastLocal$1Local' to 'Local'
@@ -26,6 +29,7 @@ public class CastInEvaluator {
         //fail class cast exc in the runtime
         List list = (List) o;
         list.size();
+
 
         System.out.println();
     }
