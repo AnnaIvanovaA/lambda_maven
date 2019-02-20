@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 
 public class MyClass {
     static String str;
+    String oneMoreStr;
 
     public static void main(String[] args) {
         str = getSomeString();

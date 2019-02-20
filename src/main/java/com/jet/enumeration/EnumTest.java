@@ -26,6 +26,7 @@ public class EnumTest {
                 System.out.println("Midweek days are so-so.");
                 break;
         }
+        System.out.println("smth");
     }
 
     public static void main(String[] args) {
@@ -39,6 +40,9 @@ public class EnumTest {
         sixthDay.tellItLikeItIs();
         EnumTest seventhDay = new EnumTest(Day.SUNDAY);
         seventhDay.tellItLikeItIs();
+        EnumTest unkownDay = new EnumTest(Day.THURSDAY);
+        unkownDay.tellItLikeItIs();
+
 
     }
 }

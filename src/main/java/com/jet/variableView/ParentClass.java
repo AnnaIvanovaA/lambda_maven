@@ -5,6 +5,11 @@ public class ParentClass {
 
     public ParentClass(String str) {
         this.str = str;
+        for (int i = 0; i < 10; i++) {
+            System.out.println("parent method");
+        }
+        System.out.println();
+
     }
 
     public String getStr() {

@@ -2,7 +2,6 @@ package com.jet.breakpoints;
 
 import org.jetbrains.annotations.NotNull;
 
-import java.io.IOException;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
@@ -34,6 +33,11 @@ public class MyLambda {
             int m = testMethod(3);
             System.out.println("Hello World!");
         }
+
+
+
+
+
 
 
         User user1 = new User(); // should stop at User class - default constructor

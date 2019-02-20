@@ -45,5 +45,4 @@ public class User {
         privateCustomer3.fooboo();
     }
 
-
 }

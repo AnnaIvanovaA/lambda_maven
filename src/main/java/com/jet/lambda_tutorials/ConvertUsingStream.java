@@ -19,8 +19,8 @@ public class ConvertUsingStream {
         Map<String, String> xMap = new HashMap<>();
         xMap.put("1", "0");
         xMap.put("2", "1");
-        xMap.put("3", "2.0d");
-        xMap.put("4", "3L");
+        xMap.put("3", "2");
+        xMap.put("4", "3");
         Map<String, Integer> yMap =
                 xMap.entrySet().stream()
                         .collect(Collectors.toMap(
