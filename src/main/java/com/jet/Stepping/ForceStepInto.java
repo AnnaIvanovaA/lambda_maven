@@ -14,6 +14,7 @@ public class ForceStepInto {
         map.put("Key3", "Value3");
         map.put("Key4", "Value4");
 
+        //case1
         Iterator<String> itr = map.keySet().iterator();    // Debug this line
 
         while (itr.hasNext()) {
@@ -34,5 +35,13 @@ public class ForceStepInto {
             String text = entries.next().getKey();
             System.out.println(text);
         }
+
+        //case2
+        foo();
     }
+    public static void foo(){
+
+    }
+
+
 }
