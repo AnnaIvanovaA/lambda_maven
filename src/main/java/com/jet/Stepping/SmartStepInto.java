@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
+import java.util.function.Function;
 import java.util.stream.Stream;
 
 public class SmartStepInto {
@@ -15,7 +16,7 @@ public class SmartStepInto {
 
         String s = "5";
         System.out.println( Integer.parseInt(
-                Float.parseFloat(
+                (int) Float.parseFloat(
                         Double.parseDouble(
                                 Integer.parseInt(s) + "") + "")+""));
 
@@ -90,6 +91,16 @@ public class SmartStepInto {
             }
         });
 
+        //Anonymous class
+        new SmartStepInto().foo1(new Function<String, Integer>() { // step into apply method here
+            @Override
+            public Integer apply(String integer1) {
+                return 5;
+            }
+        });
+    }
+    <T,R> void foo1(Function<T,R> r) {
+        r.apply((T)"dd");
     }
 
     public static void print(String text) {
@@ -113,6 +124,7 @@ public class SmartStepInto {
     }
 
     public static String foo(String s){
+        System.out.println(s);
         return s;
     }
 
