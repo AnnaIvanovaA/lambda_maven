@@ -23,7 +23,7 @@ public class TimingDynamicInvocationHandler implements InvocationHandler {
             this.methods.put(method.getName(), method);
         }
     }
-
+    
     @Override
     public Object invoke(Object proxy, Method method, Object[] args)
             throws Throwable {

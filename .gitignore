@@ -15,3 +15,9 @@ http-client.private.env.json
 #
 /lambda_maven.iml
 
+# Project exclude paths
+/gradle_pack/.gradle/
+/gradle_pack/build/
+/gradle_pack/build/classes/java/main/
+/gradle_pack/build/classes/java/test/
+!/.idea/

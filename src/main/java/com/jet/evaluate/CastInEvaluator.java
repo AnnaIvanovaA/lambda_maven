@@ -9,9 +9,12 @@ public class CastInEvaluator {
         int a = 5;
         System.out.println((Object)a);
 
-        //Expected result: ClassCastException
-        // Cannot cast 'com.jet.evaluate.CastInEvaluator$1Local' to 'com.jet.evaluate.CastInEvaluator'
-        //evaluate (Local)l, see the error Cannot cast 'my.eval.casts.CastLocal$1Local' to 'Local'
+        /*
+        not fixed yet IDEA-203279
+        Expected result: ClassCastException
+        Cannot cast 'com.jet.evaluate.CastInEvaluator$1Local' to 'com.jet.evaluate.CastInEvaluator'
+        evaluate (Local)l, see the error Cannot cast 'my.eval.casts.CastLocal$1Local' to 'Local'
+        */
         class Local {}
         Object l = new Local();
         Local l1 = (Local)l; // BP here
@@ -30,8 +33,21 @@ public class CastInEvaluator {
         List list = (List) o;
         list.size();
 
-
         System.out.println();
+
+
     }
 
+
+    /*case 3
+    Evaluate --
+Expected result: cannot cast to Integer (class cast exception)
+Evaluate this ->
+Integer integer = getT();
+integer = integer+10;
+`   */
+
+    public static <T> T getT() {
+        return (T) "HelloWorld";
+    }
 }

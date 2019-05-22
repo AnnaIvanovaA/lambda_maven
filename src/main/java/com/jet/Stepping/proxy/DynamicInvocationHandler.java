@@ -11,6 +11,9 @@ public class DynamicInvocationHandler implements InvocationHandler {
     private static Logger LOGGER = LoggerFactory.getLogger(
             DynamicInvocationHandler.class);
 
+    public DynamicInvocationHandler() {
+    }
+
     @Override
     public Object invoke(Object proxy, Method method, Object[] args)
             throws Throwable {

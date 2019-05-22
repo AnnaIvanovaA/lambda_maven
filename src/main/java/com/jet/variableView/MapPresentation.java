@@ -3,6 +3,8 @@ package com.jet.variableView;
 import java.time.LocalDateTime;
 import java.util.*;
 
+//TODO: something here
+
 public class MapPresentation {
     public static void main(String[] args) {
 
@@ -27,7 +29,7 @@ public class MapPresentation {
         int binVal = 0b11010;
 
 
-        //underscore in numerics
+        //Underscore in numerics
         long creditCardNumber = 1234_5678_9012_3456L;
         long socialSecurityNumber = 999_99_9999L;
         float pi =  3.14_15F;

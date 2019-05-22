@@ -32,7 +32,7 @@ public class SmartStepInto {
                 + foo("qq")
                 + boo(5));
 
-        (new SmartStepInto()).check(foo() + boo() + boo() + foo() + foo("qq") + boo(5));
+        (new SmartStepInto()).check(foo() + boo() + boo() + foo() + foo("qq") + boo(5) + foo() + boo());
 
 //        BufferedReader rd = new BufferedReader(new InputStreamReader(System.in)); //BP
 //        String line;
@@ -41,13 +41,15 @@ public class SmartStepInto {
 //        }
 
         Stream.of(1,2,3,4,5,6,7).count(); // here
-        Stream.of(1,2,3,4,5,6,7) // or here
+        //Stream.of(1,2,3,4,5,6,7).map(n -> doubleN(n)).filter(a -> less(a, 8)).map(x -> doubleN(x)).filter(b -> less(b, 16)).map(k -> doubleN(k)).filter(c -> less(c, 48)).forEach(System.out::println);
+        Stream.of(1,2,3,4,5,6,7)
                 .map(n -> doubleN(n))
                 .filter(a -> less(a, 8))
                 .map(x -> doubleN(x))
                 .filter(b -> less(b, 16))
+                .map(k -> doubleN(k))
+                .filter(c -> less(c, 48))
                 .forEach(System.out::println);
-
 
         //Anonymous class
         SaySmth user1 = new SaySmth() {
@@ -128,15 +130,15 @@ public class SmartStepInto {
         return s;
     }
 
-    public static String boo(){
+    private static String boo(){
         return "boo";
     }
 
-    public static String boo(int i){
+    private static String boo(int i){
         return Integer.toString(i);
     }
 
-    public static void bar(Runnable r) {
+    private static void bar(Runnable r) {
         r.run();
     }
 }

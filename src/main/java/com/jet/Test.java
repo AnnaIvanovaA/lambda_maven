@@ -8,6 +8,11 @@ import java.util.Map;
 public class Test {
 
     public static void main(String[] args) {
+
+        System.out.println(getMessage());           // (1)
+        System.out.println("You shall not pass!");  // (2)
+
+
         List<Person> pl = Person.createShortList();
 
         //can be replaced
@@ -25,5 +30,8 @@ public class Test {
 
     }
 
+    private static String getMessage() {
+        return "Hello, bug!";
+    }
 
 }

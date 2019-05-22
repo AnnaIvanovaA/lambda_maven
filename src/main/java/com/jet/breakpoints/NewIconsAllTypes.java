@@ -17,7 +17,7 @@ public class NewIconsAllTypes {
 
     //line
 
-    private int array[]; //enabled line BP -- invalid during debugging session
+    private int array1[]; //enabled line BP -- invalid during debugging session
     private int length;  //disabled line BP
     int var3; // valid + do not suspend BP + + condition -- invalid during debugging session
     int var4; // disabled + do not suspend BP --yellow
@@ -60,7 +60,7 @@ public class NewIconsAllTypes {
         if (inputArr == null || inputArr.length == 0) {
             return;
         }
-        this.array = inputArr;
+        this.array1 = inputArr;
         length = inputArr.length;
         quickSort(0, length - 1);
     }
@@ -69,12 +69,12 @@ public class NewIconsAllTypes {
 
         int i = lowerIndex;
         int j = higherIndex;
-        int pivot = array[lowerIndex + (higherIndex - lowerIndex) / 2];
+        int pivot = array1[lowerIndex + (higherIndex - lowerIndex) / 2];
         while (i <= j) {
-            while (array[i] < pivot) {
+            while (array1[i] < pivot) {
                 i++;
             }
-            while (array[j] > pivot) {
+            while (array1[j] > pivot) {
                 j--;
             }
             if (i <= j) {
@@ -90,9 +90,9 @@ public class NewIconsAllTypes {
     }
 
     private void exchangeNumbers(int i, int j) {
-        int temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
+        int temp = array1[i];
+        array1[i] = array1[j];
+        array1[j] = temp;
     }
 
     public static void main(String a[]) {

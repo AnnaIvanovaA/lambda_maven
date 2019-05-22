@@ -6,6 +6,7 @@ import java.net.URLClassLoader;
 
 public class ClassCastCheck {
     public static void main(String[] args) throws Exception {
+
         URL basePath = new URL("file:///home/anna.ivanova/Documents/projects/Idea_UI/lambdas/lambda_maven/target/classes/");
 
 
@@ -31,12 +32,23 @@ public class ClassCastCheck {
         System.out.println("2nd cast ok");
         Singleton testCast3 = (Singleton) instance3;
         System.out.println("3rd cast ok");
+
+
     }
 
     private static Object getClassInstance(Class clazz) throws Exception {
         Method method = clazz.getMethod("getInstance");
         method.setAccessible(true);
         return method.invoke(null);
+    }
+
+
+    /*Evaluate -- class cast exception
+    Integer integer = getT();
+    integer = integer+10;
+    */
+    public static <T> T getT() {
+        return (T) "HelloWorld";
     }
 
 }

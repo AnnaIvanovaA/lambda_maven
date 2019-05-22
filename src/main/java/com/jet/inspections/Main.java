@@ -39,6 +39,7 @@ public class Main {
 
         Map<Integer, String> stringMap = Inspections.getMap();
         System.out.println();
+
     }
 
 

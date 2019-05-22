@@ -1,6 +1,6 @@
 package com.jet.Stepping;
 
-public class SmartStepAlreadyExecuted2 {
+public class SmartStepAlreadyExecuted {
     public static void main(String[] args) {
         new A3().main();
     }
@@ -17,8 +17,7 @@ public class SmartStepAlreadyExecuted2 {
     static class A3 extends A2 {
         public int main() {
             System.out.println("foo");
-            //Breakpoint!
-            return foo();
+            return foo() + String.valueOf(11).length(); // step into foo, then step over, then do smart step into, it should not contain foo any more
         }
     }
 }

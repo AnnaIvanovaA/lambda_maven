@@ -32,11 +32,8 @@ public class MyLambda {
         if (isNull.test(null)) {
             int m = testMethod(3);
             System.out.println("Hello World!");
+
         }
-
-
-
-
 
 
 

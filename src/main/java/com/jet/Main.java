@@ -4,6 +4,15 @@ public class Main {
 
     public static void main(String[] args) {
 
+            String result = "ewew";
+
+            String str;
+
+            System.out.println(getMessage());           // (1)
+            System.out.println("You shall not pass!");  // (2)
+
+            str = result;
+
         for (int i = 0; i < 100; i++) {
             if (foo(i) == 12 || foo(i) == 10 || foo(i) == 15) {
                 continue;
@@ -29,5 +38,10 @@ public class Main {
 
     private static int foo(int i) {
         return i;
+    }
+
+
+    private static String getMessage() {
+        return "Hello, bug!";
     }
 }
