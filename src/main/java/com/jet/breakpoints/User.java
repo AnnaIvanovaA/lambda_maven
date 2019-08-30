@@ -10,6 +10,9 @@ public class User {  //<BP> default constructor
             return name;
         }
 
+
+
+
         public void setName(String name) {
             this.name = name;
         }

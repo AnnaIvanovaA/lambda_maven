@@ -5,9 +5,11 @@ pwd
 echo "The user logged in is:"
 whoami
 
+echo "dsds it'\\''s"
+
 
 for VAR in "foo"; do
-  echo ${VAR}
+echo ${VAR}
 done
 
 # ${VAR} should be highlighted on the last line

@@ -12,7 +12,7 @@ public class Conditions {
 
         Inner.foo(2);
         //Breakpoint!
-        if ((Inner.foo(1) & Inner.boo(1)) || (Inner.foof(2) & Inner.boof(2))) {
+        if ((Inner.foo(1) && Inner.boo(1)) || (Inner.foo(2) && Inner.boo(2))) {
             System.out.println("xxx");
         }
         System.out.println("done");
@@ -36,11 +36,11 @@ public class Conditions {
         }
 
         private static boolean foof(int i) {
-            return false;
+            return true;
         }
 
         private static boolean boof(int i) {
-            return false;
+            return true;
         }
 
     }

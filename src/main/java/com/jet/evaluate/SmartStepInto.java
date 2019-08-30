@@ -7,7 +7,6 @@ package com.jet.evaluate;
 public class SmartStepInto {
     //breakpoint for main method
     public static void main(String[] args) {
-        bar(() -> System.out.println("Hello"));
 
         //case 1
         check(foo() //<BP> here

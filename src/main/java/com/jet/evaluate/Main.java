@@ -9,6 +9,7 @@ public class Main {
 
         int[] anArray = {1, 2, 3};
         //System.out.println(anArray[5]);
+        System.out.println("OK");
 
 
     }

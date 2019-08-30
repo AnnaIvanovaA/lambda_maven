@@ -1,6 +1,6 @@
 package com.jet.annotationsRename;
 
-public class AnnotationsExample {
+public class AnnotationsExampleRename {
 
 
 

@@ -49,6 +49,9 @@ public class MapPresentation {
         mapPrimitiveTypes.put("g", LocalDateTime.now());
         mapPrimitiveTypes.put("h", 'c');
 
+        mapPrimitiveTypes.put("a", null);
+        mapPrimitiveTypes.put("g", null);
+
         mapPrimitiveTypes.put("j", result);
         mapPrimitiveTypes.put("k", capitalC);
         mapPrimitiveTypes.put("l", c);

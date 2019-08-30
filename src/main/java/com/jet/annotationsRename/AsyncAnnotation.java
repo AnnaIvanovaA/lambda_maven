@@ -1,5 +1,6 @@
 package com.jet.annotationsRename;
 
+import com.jet.breakpoints.S;
 import org.jetbrains.annotations.Async;
 
 import java.util.concurrent.BlockingQueue;
@@ -29,6 +30,5 @@ public class AsyncAnnotation {
 
         private static void process(@Async.Execute Integer i) {
             System.out.println("Processing " + i);
-
         }
 }
