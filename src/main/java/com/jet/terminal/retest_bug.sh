@@ -8,10 +8,10 @@ cRed='\033[01;31m'
 cGreen='\e[38;5;81m'
 cYellow='\033[01;33m'
 cPurple='\033[00;35m'
-cCyan='\033[0sdfsdfs1;36m'
-cWhite='\033[sfsdf01;37m'
+cCyan='\033[01;36m'
+cWhite='\033[01;37m'
 cBold='\033[1m'
-cUnderline='\03sdfsdfs3[4m'
+cUnderline='\033[4m'
 
 prodUser='deploy'
 
@@ -28,10 +28,16 @@ dev-copy-file() {
 }
 
 dev-diff() {
-	php scripts/swssitch_diff.php $1
+	php scripts/switch_diff.php $1
 }
 
+to-sss34() {
+    to-prod-host sss34 $1
+}
 
+to-docker() {
+    docker-compose run php bash
+}
 
 to-ggg35() {
     to-prod-host ggg35 $1
@@ -74,7 +80,34 @@ to-prod-host() {
 	fi
 }
 
+to-prod() {
+    for host in ggg35 ppp04 ppp31 ppp32 sss34; do
+        to-prod-host ${host} $1
+    done
+}
 
+gdiff () {
+	if [ $1 ]
+		then branch=$1
+	else
+		branch=$(git rev-parse --abbrev-ref HEAD)
+	fi
+
+	git diff -w --color development...origin/${branch}
+	git diff -w --color development...origin/${branch} --stat
+}
+
+git-gc () {
+    printf 'Before .git size - ';
+    du -sh .git
+
+    git branch --merged | grep -v master | grep -v development | xargs git branch -d
+    git reflog expire --expire=now --all
+    git gc --aggressive --prune=all
+
+    printf 'After .git size -';
+    du -sh .git
+}
 
 dev-cs-fix() {
 	php vendor/bin/php-cs-fixer fix -vvv --allow-risky=yes $1
