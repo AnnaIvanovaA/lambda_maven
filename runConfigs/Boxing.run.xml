@@ -1,5 +1,8 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Boxing" type="Application" factoryName="Application" nameIsGenerated="true">
+    <envs>
+      <env name="env" value="val" />
+    </envs>
     <option name="MAIN_CLASS_NAME" value="com.jet.evaluate.Boxing" />
     <module name="lambda_maven" />
     <option name="PROGRAM_PARAMETERS" value="$Classpath$" />
