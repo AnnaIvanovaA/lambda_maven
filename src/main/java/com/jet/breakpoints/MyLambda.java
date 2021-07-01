@@ -13,6 +13,8 @@ public class MyLambda {
     //2 BPs
     private static final String str = isNull.getClass().getName();
 
+
+
     private static String var;
     List<String> list = new ArrayList<>();
 

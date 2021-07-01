@@ -6,6 +6,7 @@
 
     <groupId>com.net</groupId>
     <artifactId>lambda_maven</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -59,12 +60,16 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>15</source>
+                    <target>15</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>ru</module>
+        <module>mod</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -75,13 +80,20 @@
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>16.0.2</version>
+            <version>20.1.0</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib-jdk8</artifactId>
             <version>${kotlin.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>30.1.1-jre</version>
+        </dependency>
+
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-test</artifactId>

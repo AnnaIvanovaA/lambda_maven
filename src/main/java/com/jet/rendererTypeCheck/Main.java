@@ -1,13 +1,34 @@
 package com.jet.rendererTypeCheck;
 
 import java.math.BigDecimal;
+
+import java.sql.Timestamp;
+import java.time.Instant;
+import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
+
+        // 2021-03-24 16:48:05.591
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+
+        // 2021-03-24 16:48:05.591
+        Date date = new Date();
+        Timestamp timestamp2 = new Timestamp(date.getTime());
+
+        // convert Instant to Timestamp
+        Timestamp ts = Timestamp.from(Instant.now());
+
+        // convert ZonedDateTime to Instant to Timestamp
+        //Timestamp ts = Timestamp.from(ZonedDateTime.now().toInstant()));
+
+        // convert Timestamp to Instant
+        Instant instant = ts.toInstant();
 
         rendererTypeChech();
         rendererLengthCheck();

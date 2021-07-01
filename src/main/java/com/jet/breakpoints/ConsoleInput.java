@@ -22,7 +22,22 @@ public class ConsoleInput {
         BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while (!((line = rd.readLine()).equals("exit"))){
+            final String rdStr = rd.getClass().getName();
             System.out.println(line);
+
+            for (int i = 0; i < 5; i++) {
+                final String checkString = "smth"+i;
+                if (checkString.equals("smth0")){
+                    i++;
+                }
+                else if (checkString.equals("smth1")){
+                    i++;
+                }
+                else{
+                    i=i*2;
+                }
+            }
+
         }
     }
 }

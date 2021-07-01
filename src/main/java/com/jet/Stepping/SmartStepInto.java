@@ -34,11 +34,11 @@ public class SmartStepInto {
 
         (new SmartStepInto()).check(foo() + boo() + boo() + foo() + foo("qq") + boo(5) + foo() + boo());
 
-//        BufferedReader rd = new BufferedReader(new InputStreamReader(System.in)); //BP
-//        String line;
-//        while (!((line = rd.readLine()).equals("exit"))){
-//            System.out.println(line);
-//        }
+        BufferedReader rd = new BufferedReader(new InputStreamReader(System.in)); //BP
+        String line;
+        while (!((line = rd.readLine()).equals("exit"))){
+            System.out.println(line);
+        }
 
         Stream.of(1,2,3,4,5,6,7).count(); // here
         //Stream.of(1,2,3,4,5,6,7).map(n -> doubleN(n)).filter(a -> less(a, 8)).map(x -> doubleN(x)).filter(b -> less(b, 16)).map(k -> doubleN(k)).filter(c -> less(c, 48)).forEach(System.out::println);

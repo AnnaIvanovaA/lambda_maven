@@ -39,7 +39,14 @@ public class MapPresentation {
         byte nybbles = 0b0010_0101;
         long bytes = 0b11010010_01101001_10010100_10010010;
 
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(1, 2);
+        map.put(2, 2);
+        System.out.println(map);
+
+
         Map<String, Object> mapPrimitiveTypes = new HashMap<>();
+
         mapPrimitiveTypes.put("a", "str");
         mapPrimitiveTypes.put("b", 1);
         mapPrimitiveTypes.put("c", 2.0d);

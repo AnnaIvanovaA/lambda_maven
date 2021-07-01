@@ -1,0 +1,2 @@
+public class classmod2 {
+}
