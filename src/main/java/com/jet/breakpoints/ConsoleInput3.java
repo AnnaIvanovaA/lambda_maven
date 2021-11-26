@@ -4,10 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class ConsoleInput {
+public class ConsoleInput3 {
 
     public static void main(String[] args) {
-        ConsoleInput consoleInput = new ConsoleInput();
+        ConsoleInput3 consoleInput = new ConsoleInput3();
 
         try{
             System.out.println("I'm waiting...");

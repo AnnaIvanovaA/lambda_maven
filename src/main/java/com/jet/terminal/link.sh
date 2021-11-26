@@ -4,3 +4,12 @@ echo -e 'some text for a long long line https://www.jetbrains.com/help/idea/refo
 echo -e ' https://git.chocodev.kz/arman/chocoadmin/merge_requests/new?merge_request%5Bsource_branch%5D=cube.cases-for-sales.marat_pos_teminal_fix'
 
 echo -e 'some text for a long long line'
+
+
+var="$(git for-each-ref)"
+commandA --args
+
+commandB "${var}"
+
+commandA | sponge | { IFS= read -r x; { printf "%s\n" "$x"; cat; } | commandB; }
+

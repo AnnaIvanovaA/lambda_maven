@@ -1,17 +1,16 @@
 package com.jet.lambda_tutorials;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class ConvertUsingStream {
 
     public static void main(String[] args) {
         List<String> x = new ArrayList<>();
-        x.add("12");
-        x.add("34");
+
+        for (int i = 0; i < 1000; i++) {
+            x.add(String.valueOf(i));
+        }
         List<Integer> y = x.stream()
                 .map(s -> Integer.parseInt(s))
                 .collect(Collectors.toList());
@@ -27,6 +26,7 @@ public class ConvertUsingStream {
                                 e -> e.getKey(),
                                 e -> Integer.parseInt(e.getValue())
                         ));
+        System.out.println();
 
     }
 }

@@ -13,7 +13,7 @@ public class Main {
         a = new String(a);
 
 
-        int[] ia1 = new int[1000];
+        int[] ia1 = new int[1100];
         ia1[1] = 1;
         ia1[10] = 10;
         ia1[100] = 101;

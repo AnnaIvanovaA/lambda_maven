@@ -45,6 +45,17 @@ public class MapPresentation {
         System.out.println(map);
 
 
+        Random random = new Random(36);
+        Map<Integer, Integer> hashMap = new HashMap<>();
+
+        for (int k = 0; k < 11000; k++){
+            int number = random.nextInt(1100);
+            Integer frequency = hashMap.get(number);
+            hashMap.put(number, frequency == null ? 1 : frequency + 1);
+        }
+        System.out.println(hashMap);
+
+
         Map<String, Object> mapPrimitiveTypes = new HashMap<>();
 
         mapPrimitiveTypes.put("a", "str");
@@ -82,6 +93,8 @@ public class MapPresentation {
         mapPrimitiveTypes.put("r1", maxLong);
         mapPrimitiveTypes.put("r2", nybbles);
         mapPrimitiveTypes.put("r3", bytes);
+
+        Object obj = mapPrimitiveTypes.get("q");
 
         System.out.println(mapPrimitiveTypes.size());
 

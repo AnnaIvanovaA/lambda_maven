@@ -11,6 +11,18 @@ public class EvaluateInEditor {
 
     public static void main(String[] args) {
 
+        try {
+            Integer integer = null;
+//            integer.getClass();
+
+            throw new ThrowException();
+        } catch (Exception e) {
+            StackTraceElement element = e.getStackTrace()[0];
+            StackTraceElement trace = new StackTraceElement("com.jet.evaluate.EvaluateInEditor", "main" , "EvaluateInEditor.java", 5 );
+            StackTraceElement[] methods = Thread.currentThread().getStackTrace();
+            System.out.println("dsfdsf");
+        }
+
 
         String strr = "Hello, World!\nHello, World!";
 

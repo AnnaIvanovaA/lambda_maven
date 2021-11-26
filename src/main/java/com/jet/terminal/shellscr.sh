@@ -10,7 +10,7 @@ function foo() {
   fi
 }
 
-for (( i = 0; i < 5; i++ )); do
+for ((i = 0; i < 5; i++)); do
   read -p r
   print -n $r
   wait $!

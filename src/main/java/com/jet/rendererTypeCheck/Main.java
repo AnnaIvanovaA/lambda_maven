@@ -44,8 +44,7 @@ public class Main {
     }
 
 
-
-    public static void rendererTypeChech(){
+    public static void rendererTypeChech() {
 
         List<Calendar> list = new ArrayList<>();
         Calendar eventStart = Calendar.getInstance();
@@ -63,7 +62,7 @@ public class Main {
         System.out.println(calculations(eventDuration));
     }
 
-    public static String calculations(Duration eventDuration){
+    public static String calculations(Duration eventDuration) {
         return "Smth";
     }
 

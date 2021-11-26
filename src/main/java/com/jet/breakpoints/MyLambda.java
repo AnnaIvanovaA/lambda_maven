@@ -4,7 +4,10 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.*;
 import java.util.function.Consumer;
+import java.util.function.DoubleToIntFunction;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
+
 
 public class MyLambda {
 
@@ -21,6 +24,51 @@ public class MyLambda {
 
     public static void main(String[] args) {
 
+        final ArrayList<Integer> numList = new ArrayList<>();
+
+        for (int i = 0; i < 100; i++) {
+            numList.add(i);
+        }
+
+        final List<Integer> outputList = numList.stream()
+                .map(x -> 2*x)
+                .filter(x -> x < 50)
+                .collect(Collectors.toList());
+
+        List<Integer> values = new ArrayList<>();
+        values.add(145);
+        values.add(13);
+        values.add(2);
+        values.add(66);
+        values.add(8);
+        values.add(5);
+        values.add(21);
+        values.add(14);
+        values.add(121);
+
+        int maxBound = 10;
+        values.sort((o1, o2) -> -Integer.compare(o1, o2));
+        System.out.println(values);
+
+        int minBound = 10;
+        values.removeIf((val) -> val < minBound);
+        System.out.println(values);
+
+        System.out.println("lambda foreach");
+        values.forEach(val -> System.out.println("val: " + val));
+
+        List<String> hexOctValues = values.stream()
+                .map(val -> Integer.toHexString(val) + " " + Integer.toOctalString(val))
+                .collect(Collectors.toList());
+        System.out.println("Hex/Oct values");
+        hexOctValues.forEach(val -> System.out.println("hex/oct:" + val));
+
+
+        int num = 15;
+        final String msg = num > 10
+                ? "Number is greater than 10"
+                : "Number is less than or equal to 10";
+
 
         new MyLambda().acceptsFunction(opti -> {
             System.out.println(opti);
@@ -31,7 +79,8 @@ public class MyLambda {
         method3(4);
 
 
-        if (isNull.test(null)) {
+
+      if (isNull.test(null)) {
             int m = testMethod(3);
             System.out.println("Hello World!");
 
