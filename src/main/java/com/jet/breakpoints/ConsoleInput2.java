@@ -10,7 +10,7 @@ public class ConsoleInput2 {
         ConsoleInput2 consoleInput = new ConsoleInput2();
 
         try{
-            System.out.println("I'm waiting...");
+            System.out.print("I'm waiting...");
             consoleInput.waitForConsoleInput();
         }
         catch (Exception e){

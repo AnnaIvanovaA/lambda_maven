@@ -32,6 +32,12 @@ public class ThreadsExample {
 
         thread.join();  //main will wait until thread (printer) is finished
 
+        Thread current = Thread.currentThread();
+        StackTraceElement[] methods = current.getStackTrace();
+
+        for(var info: methods)
+            System.out.println(info);
+
         Thread.sleep(3000);
         System.out.println("at the main method end");
     }

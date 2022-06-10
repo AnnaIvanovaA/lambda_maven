@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="folder_test" type="JUnit" factoryName="JUnit" folderName="JUnit fold">
+  <configuration default="false" name="folder_test mvn" type="JUnit" factoryName="JUnit" folderName="JUnit fold">
     <module name="lambda_maven" />
     <option name="PACKAGE_NAME" value="com.jet.packageRetestReproduce" />
     <option name="MAIN_CLASS_NAME" value="com.jet.packageRetestReproduce.TestTest" />
@@ -10,6 +10,8 @@
       <env name="foo" value="bar;qqq=c\aaa\" />
     </envs>
     <method v="2">
+      <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean" />
+      <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="install" />
       <option name="Make" enabled="true" />
     </method>
   </configuration>

@@ -21,5 +21,7 @@ public class MoneyTransfer {
         //deadlock
         mt.transferMoney(first, second, 54.23);   //acquire first, wait for second --> acquire first
         mt.transferMoney(second, first, 66.99);    //acquire second, wait for first --> wait
+
+
     }
 }
