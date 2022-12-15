@@ -6,7 +6,7 @@
     <option name="MAIN_CLASS_NAME" value="com.jet.evaluate.Boxing" />
     <module name="lambda_maven" />
     <option name="PROGRAM_PARAMETERS" value="$Classpath$" />
-    <option name="VM_PARAMETERS" value="-ea" />
+    <option name="VM_PARAMETERS" value="-ea fksdfjlksd" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="com.jet.evaluate.chepack.*" />
