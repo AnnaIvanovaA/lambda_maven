@@ -4,13 +4,13 @@ import org.junit.Assert;
 import org.junit.Test;
 
 
-public class TestClass {
+public class TestClass4 {
 
     @Test
-    public void test_Method() throws InterruptedException {
+    public void test_Method(){
         System.out.println();
         Assert.assertEquals(2+2, 4);
-        Thread.sleep(13000);
+
 
     }
 

@@ -2,8 +2,8 @@ package com.jet.newPack;
 
 import java.io.IOException;
 
-public class Class_20182_rename {
-    public static void main(String[] args) {
+public class B {
+    public static void main(String[] args) throws InterruptedException {
         try {
             System.out.println("dsdfdsfd");
             System.in.read();
@@ -12,6 +12,9 @@ public class Class_20182_rename {
             e.printStackTrace();
         }
         System.out.println("new");
+        Thread.sleep(100000000);
+
+
     }
 
 }

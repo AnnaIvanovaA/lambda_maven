@@ -4,7 +4,7 @@ import lombok.SneakyThrows;
 
 import java.time.LocalTime;
 
-public class ThreadsExample {
+public class C {
 
     @SneakyThrows
     public static void main(String[] args) {

@@ -1,5 +1,9 @@
 package com.jet.breakpoints;
 
+
+
+//import java.util.*;
+
 import org.jetbrains.annotations.NotNull;
 
 import java.util.*;
@@ -16,6 +20,10 @@ public class MyLambda {
     //2 BPs
     private static final String str = isNull.getClass().getName();
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 
 
     private static String var;
@@ -29,6 +37,8 @@ public class MyLambda {
         for (int i = 0; i < 100; i++) {
             numList.add(i);
         }
+
+       Set<String> dffsd = new HashSet<>();
 
         final List<Integer> outputList = numList.stream()
                 .map(x -> 2*x)
@@ -144,7 +154,7 @@ public class MyLambda {
         MyLambda.var = Integer.toString(value+3);
     }
 
-
+    //ಗೂಟನ್‌ಬರ್ಗ್‌—ಜಗತ್ತನ್ನು ಸಂಪದರಿತಗೊಳಿಸಿದ ವಿಧ!
     public static int sumAll( List<Integer> numbers, Predicate<Integer> p) {  //Method BP
         int total = 0;
         for (int number : numbers) {

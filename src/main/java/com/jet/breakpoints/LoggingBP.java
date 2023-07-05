@@ -3,6 +3,7 @@ package com.jet.breakpoints;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class LoggingBP {
+    //TODO smth
 
     public static void main(String[] args) {
         ThreadLocalRandom random = ThreadLocalRandom.current();

@@ -1,7 +1,7 @@
-import React from "react"
-
-const Checklist = ({elements}) => (
-    <ul>
-        {elements.map((element, i) => <li key = {""}}
-        </ul>
-            )
+// import React from "react"
+//
+// const Checklist = ({elements}) => ()
+//     // <ul>
+//     //     {elements.map((element, i) => <li key = {""}
+//     //     </ul>
+//     //         )

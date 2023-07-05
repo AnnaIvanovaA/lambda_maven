@@ -1,0 +1,112 @@
+1. Overview
+In this tutorial, we'll discuss different ways of reading a file into an ArrayList.
+
+There are many ways to read a file in Java. Once we read a file, we can perform a lot of operations on the content of that file.
+
+Some of these operations, like sorting, may require processing the entire content of the file into memory. In order to perform such operations, we may need to read the file as an Array or a List of lines or words.
+
+2. Using FileReader
+The most basic way of reading a file in Java is using FileReader. By definition, FileReader is a convenience class for reading stream of characters from a File.
+
+There are multiple constructors available to initialize a FileReader:
+
+FileReader f = new FileReader(String filepath);
+FileReader f = new FileReader(File f);
+FileReader f = new FileReader(FileDescriptor fd);
+Copy
+All of these constructors assume that the default character encoding and the default byte-buffer size are appropriate.
+
+However, if we want to provide custom character encoding and byte buffer size, we can use InputStreamReader or FileInputStream.
+
+In the following code, we'll demonstrate how to read lines from a file into an ArrayList, using FileReader:
+
+ArrayList<String> result = new ArrayList<>();
+
+try (FileReader f = new FileReader(filename)) {
+    StringBuffer sb = new StringBuffer();
+    while (f.ready()) {
+        char c = (char) f.read();
+        if (c == '\n') {
+            result.add(sb.toString());
+            sb = new StringBuffer();
+        } else {
+            sb.append(c);
+        }
+    }
+    if (sb.length() > 0) {
+        result.add(sb.toString());
+    }
+}
+return result;
+Copy
+3. Using BufferedReader
+Although FileReader is pretty easy to use, it's advisable to always wrap it with BuffereReader, when reading a file.
+
+This is because BufferedReader uses a char buffer to simultaneously read multiple values from a character-input stream and hence reduces the number of read() calls made by the underlying FileStream.
+
+Constructors for BufferedReader take Reader as input. Additionally, we can also provide buffer size in the constructors, but, for most use cases, the default size is large enough:
+
+BufferedReader br = new BufferedReader(new FileReader(filename));
+BufferedReader br = new BufferedReader(new FileReader(filename), size);
+Copy
+In addition to the inherited methods from the Reader class, BufferedReader also provides readLine() method, to read an entire line as a String:
+
+ArrayList<String> result = new ArrayList<>();
+
+try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+    while (br.ready()) {
+        result.add(br.readLine());
+    }
+}
+Copy
+4. Using Scanner
+Another common way of reading files is through Scanner.
+
+Scanner is a simple text scanner, used for parsing primitive types and strings, using regular expressions.
+
+When reading files, Scanner is initialized using File or FileReader objects:
+
+
+freestar
+Scanner s = new Scanner(new File(filename));
+Scanner s = new Scanner(new FileReader(filename));
+Copy
+Similar to BufferedReader, Scanner provides readLine() method to read an entire line. Additionally, it also provides a hasNext() method to indicate whether more values are available for reading or not:
+
+ArrayList<String> result = new ArrayList<>();
+
+try (Scanner s = new Scanner(new FileReader(filename))) {
+    while (s.hasNext()) {
+        result.add(s.nextLine());
+    }
+    return result;
+}
+Copy
+Scanner breaks its input into tokens using a delimiter, default delimiter being whitespace. These tokens can be converted into values of different types, by using various next (nextInt, nextLong, etc) methods available:
+
+ArrayList<Integer> result = new ArrayList<>();
+
+try (Scanner s = new Scanner(new FileReader(filename))) {
+    while (s.hasNext()) {
+        result.add(s.nextInt());
+    }
+    return result;
+}
+Copy
+5. Using Files.readAllLines
+Probably the easiest way to read a file, and parse all its lines into an ArrayList, is to use the readAllLines() method available in Files class:
+
+List<String> result = Files.readAllLines(Paths.get(filename));
+Copy
+This method can also take a charset parameter, to read as per a specific character encoding:
+
+Charset charset = Charset.forName("ISO-8859-1");
+List<String> result = Files.readAllLines(Paths.get(filename), charset);
+Copy
+6. Conclusion
+To summarize, we discussed some common ways of reading the contents of a File into an ArrayList. Also, we covered some advantages and disadvantages of the various methods.
+
+For example, we can use BufferedReader to buffer characters for efficiency. Alternatively, we could use Scanner to read primitive using delimiters. Or perhaps, we could simply use Files.readAllLines(), without worrying about underlying implementation.
+
+As usual, the code is available in our GitHub repository.
+

@@ -20,7 +20,12 @@ public class Boxing {
         System.out.println("hello"); // Breakpoint
 
         List<Integer> li = new ArrayList<>();
-        for (int i = 1; i < 50; i += 2)
+        for (int i = 1; i < 50; i += 2) {
+            final File file2 = new File("boooo");
+        }
+        for (int i = 0; i < 50; i++) {
             li.add(i);
+        }
     }
+
 }

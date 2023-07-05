@@ -21,10 +21,13 @@ public class Test {
             String n5 = reader.readLine();
             String n6 = reader.readLine();
             System.out.println(n1 + n2 + n3 + n4 + n5 + n6);
+            System.out.println(n1 + n2 + n3 + n4 + n5 + n6);
+            System.out.println(n1 + n2 + n3 + n4 + n5 + n6);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
+        System.out.println("sdfsd");
         System.out.println(getMessage());           // (1)
         System.out.println("You shall not pass!");  // (2)
 
