@@ -1,5 +1,5 @@
 #!/bin/bash
-# comment
+# commentn
 
 var="$(git for-each-ref)"
 commandA --args
@@ -10,6 +10,10 @@ echo "The user logged in is:"
 whoami
 
 echo "dsds it'\\''s"
+
+for i in {1..5} ; do
+    e
+done
 
 for VAR in "foo"; do
   echo ${VAR}

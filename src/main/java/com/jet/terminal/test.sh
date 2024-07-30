@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/zsh
+# !/bin/bash
 # This script checks if a file exists
 
 # Get filename

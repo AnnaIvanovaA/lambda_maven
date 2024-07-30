@@ -16,5 +16,4 @@ commandA --args
 
 commandB "${var}"
 
-commandA | sponge | { IFS= read -r x; { printf "%s\n" "$x"; cat; } | commandB; }
-
+commandA | sponge | { IFS= read -r x; { printf "%s\n" "$x"; cat; } | commandB;

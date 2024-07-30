@@ -6,6 +6,11 @@ public class User {  //<BP> default constructor
     String name;
     int age;
 
+    int smth;
+public Integer getSomeInt(){
+return smth;
+}
+
         public String getName() {
             return name;
         }
@@ -14,7 +19,9 @@ public class User {  //<BP> default constructor
 
 
         public void setName(String name) {
+            //
             this.name = name;
+
         }
 
         public int getAge() {

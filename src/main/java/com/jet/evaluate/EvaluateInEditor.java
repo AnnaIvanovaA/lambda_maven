@@ -13,6 +13,8 @@ public class EvaluateInEditor {
     public static void main(String[] args) {
 
         try {
+System.out.println("dsfsdfsdf");
+//System.out.println();
             Integer integer = null;
 //            integer.getClass();
 
@@ -45,7 +47,7 @@ public class EvaluateInEditor {
             }
         }
         Runnable xxxxx = () -> System.out.println(1);
-        //
+        //comments
 
         BigDecimal one = BigDecimal.ONE;
 
@@ -63,5 +65,6 @@ public class EvaluateInEditor {
         System.out.println(LongString.stringLength706);
         System.out.println();
         System.out.println();
+
     }
 }

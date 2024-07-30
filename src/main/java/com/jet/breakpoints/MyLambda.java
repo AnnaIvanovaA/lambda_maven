@@ -29,8 +29,8 @@ public class MyLambda {
     private static String var;
     List<String> list = new ArrayList<>();
 
-
     public static void main(String[] args) {
+        method1();
 
         final ArrayList<Integer> numList = new ArrayList<>();
 
@@ -44,7 +44,6 @@ public class MyLambda {
                 .map(x -> 2*x)
                 .filter(x -> x < 50)
                 .collect(Collectors.toList());
-
         List<Integer> values = new ArrayList<>();
         values.add(145);
         values.add(13);
@@ -87,8 +86,6 @@ public class MyLambda {
         method1();
         method2();
         method3(4);
-
-
 
       if (isNull.test(null)) {
             int m = testMethod(3);
@@ -167,7 +164,7 @@ public class MyLambda {
 
     public static void method1() {
         try {
-            Thread.sleep(1000);
+            Thread.sleep(10000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

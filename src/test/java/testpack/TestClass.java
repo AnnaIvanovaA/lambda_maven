@@ -10,8 +10,6 @@ public class TestClass {
     public void test_Method() throws InterruptedException {
         System.out.println();
         Assert.assertEquals(2+2, 4);
-        Thread.sleep(13000);
-
     }
 
     @Test

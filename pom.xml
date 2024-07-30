@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <kotlin.version>1.6.21</kotlin.version>
+        <kotlin.version>2.0.0</kotlin.version>
     </properties>
 
 
@@ -37,33 +37,41 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <jvmTarget>1.8</jvmTarget>
+                    <jvmTarget>11</jvmTarget>
                 </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>compile</id>
-                        <phase>compile</phase>
-                        <goals>
-                            <goal>compile</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>testCompile</id>
-                        <phase>test-compile</phase>
-                        <goals>
-                            <goal>testCompile</goal>
-                        </goals>
-                    </execution>
-                </executions>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
+                    <source>17</source>
+                    <target>17</target>
                 </configuration>
             </plugin>
+            <!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>compile</id>-->
+<!--                        <phase>compile</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>compile</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                    <execution>-->
+<!--                        <id>testCompile</id>-->
+<!--                        <phase>test-compile</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>testCompile</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--                <configuration>-->
+<!--                    <source>17</source>-->
+<!--                    <target>17</target>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
         </plugins>
     </build>
     <modules>
@@ -91,7 +99,7 @@
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-stdlib-jdk8</artifactId>
+            <artifactId>kotlin-stdlib</artifactId>
             <version>${kotlin.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->

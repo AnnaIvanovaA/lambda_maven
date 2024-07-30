@@ -19,7 +19,6 @@ All of these constructors assume that the default character encoding and the def
 However, if we want to provide custom character encoding and byte buffer size, we can use InputStreamReader or FileInputStream.
 
 In the following code, we'll demonstrate how to read lines from a file into an ArrayList, using FileReader:
-
 ArrayList<String> result = new ArrayList<>();
 
 try (FileReader f = new FileReader(filename)) {
