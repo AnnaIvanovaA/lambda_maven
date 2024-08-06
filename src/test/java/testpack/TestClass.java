@@ -1,30 +1,32 @@
 package testpack;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class TestClass {
-
     @Test
-    public void test_Method() throws InterruptedException {
-        System.out.println();
-        Assert.assertEquals(2+2, 4);
+    public void testAddition() throws InterruptedException {
+        runTest(2 + 2, 4);
     }
 
     @Test
-    public void test_Method2(){
-        System.out.println();
-        Assert.assertEquals(2+2, 4);
+    public void testAdditionWithDifferentExpected() {
+        runTest(2 + 2, 4);
     }
+
     @Test
-    public void test_Method3(){
-        System.out.println();
-        Assert.assertEquals(2+2, 5);
+    public void testAdditionIncorrectResult() {
+        runTest(2 + 2, 5);
     }
+
     @Test
-    public void test_Method4(){
+    public void testAdditionAnotherIncorrectResult() {
+        runTest(2 + 2, 6);
+    }
+
+    private void runTest(int actual, int expected) {
         System.out.println();
-        Assert.assertEquals(2+2, 6);
+        assertEquals(expected, actual);
     }
 }
