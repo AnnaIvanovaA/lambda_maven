@@ -15,7 +15,7 @@ public class ListPresentation {
 
         byte b = 100;
         short s = 10000;
-        int i = 100000;
+        int number = 100000;
         float f = 3.0f;
         double d2 = 1.234e2;
 
@@ -40,6 +40,10 @@ public class ListPresentation {
         long bytes = 0b11010010_01101001_10010100_10010010;
 
         List<Object> listPrimitiveTypes = new ArrayList<>();
+        List<Person> personList = new ArrayList<>();
+        for (int i = 0; i < 3000; i++) {
+            personList.add(new Person("Person #" + i, 20 + (i % 30), "person" + i + "@example.com"));
+        }
         listPrimitiveTypes.add("str");
         listPrimitiveTypes.add( 1);
         listPrimitiveTypes.add(2.0d);
@@ -58,7 +62,7 @@ public class ListPresentation {
 
         listPrimitiveTypes.add(b);
         listPrimitiveTypes.add(s);
-        listPrimitiveTypes.add(i);
+        listPrimitiveTypes.add(number);
         listPrimitiveTypes.add(f);
         listPrimitiveTypes.add(d2);
         listPrimitiveTypes.add(decVal);
@@ -72,6 +76,13 @@ public class ListPresentation {
         listPrimitiveTypes.add(maxLong);
         listPrimitiveTypes.add(nybbles);
         listPrimitiveTypes.add(bytes);
+
+        List<String> bigStringlist = new ArrayList<>();
+        for (int i = 0; i < 1000; i++) {
+           bigStringlist.add("This is a big string. Repeated text for testing. Element #" + i + ". "
+                    + "link https://plugins.jetbrains.com/. "
+                    + "This string is repeated multiple times to increase its length. ".repeat(100));
+        }
 
         System.out.println(listPrimitiveTypes.size());
 

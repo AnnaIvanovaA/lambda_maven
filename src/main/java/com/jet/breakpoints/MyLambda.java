@@ -30,7 +30,12 @@ public class MyLambda {
     List<String> list = new ArrayList<>();
 
     public static void main(String[] args) {
+        System.out.println("smth");
         method1();
+        method1();
+        method2();
+        method3(3);
+        System.out.println("rwerwer");
 
         final ArrayList<Integer> numList = new ArrayList<>();
 
