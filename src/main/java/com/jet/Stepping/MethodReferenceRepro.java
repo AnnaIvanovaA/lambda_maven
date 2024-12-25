@@ -9,9 +9,9 @@ public class MethodReferenceRepro {
         actions.add(new Runnable() {
 
             @Override
-            public void run() {
-                System.out.println("test");
-            }
+//            public void run() { System.out.println("test");}
+ public void run(){ System.out.println("test");}
+
         });
 
         actions.forEach(Runnable::run);

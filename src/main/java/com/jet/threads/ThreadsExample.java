@@ -39,7 +39,7 @@ public class ThreadsExample {
             System.out.println(info);
 
         Thread.sleep(30000);
-        System.out.println("at the main method end");
+          System.out.println("at the main method end");
     }
 
     static class Printer extends Thread {

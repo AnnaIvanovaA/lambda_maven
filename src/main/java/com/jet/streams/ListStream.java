@@ -8,13 +8,14 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class ListStream {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         List.of(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20).stream()
                 .filter(i -> i % 2 == 0)
-                .limit(9)
+                .limit(19)
                 .toList();
 
+        Thread.sleep(100);
         IntStream.iterate(1, n -> n + 1)
                 .skip(Integer.parseInt(args[0]))
                 .limit(Integer.parseInt(args[1]))

@@ -4,4 +4,6 @@ public enum Delete {
     foo(), /**
      * some description
      */BAR, BAZ;
+
+
 }

@@ -1,5 +1,7 @@
 package com.jet.variableView;
 
+import java.time.LocalDate;
+
 public class ArrayDisplayTest {
     public static void main(String[] args) {
         // Integer array with 1000 elements
@@ -32,6 +34,7 @@ public class ArrayDisplayTest {
             charArray[i] = (char) (65 + (i % 26)); // Repeating A-Z characters
         }
 
+
         // Long array with 6000 elements
         long[] longArray = new long[6000];
         for (int i = 0; i < longArray.length; i++) {
@@ -47,7 +50,7 @@ public class ArrayDisplayTest {
         Person[] peopleArray = new Person[5000];
 
         for (int i = 0; i < peopleArray.length; i++) {
-            peopleArray[i] = new Person("Person #" + i, 20 + (i % 30), "person" + i + "@example.com");
+            peopleArray[i] = new Person("Person #" + i, 20 + (i % 30), LocalDate.of(1993, 1, 15),"person" + i + "@example.com");
         }
 
         String[] bigStringArray = new String[2000];

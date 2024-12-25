@@ -1,5 +1,6 @@
 package com.jet.variableView;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.*;
 
@@ -42,7 +43,7 @@ public class ListPresentation {
         List<Object> listPrimitiveTypes = new ArrayList<>();
         List<Person> personList = new ArrayList<>();
         for (int i = 0; i < 3000; i++) {
-            personList.add(new Person("Person #" + i, 20 + (i % 30), "person" + i + "@example.com"));
+            personList.add(new Person("Person #" + i, 20 + (i % 30), LocalDate.of(1993, 1, 15),"person" + i + "@example.com"));
         }
         listPrimitiveTypes.add("str");
         listPrimitiveTypes.add( 1);

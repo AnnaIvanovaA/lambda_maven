@@ -1,4 +1,4 @@
-package com.jet;
+package com.jet.asyncstack;
 
 import javax.swing.*;
 
