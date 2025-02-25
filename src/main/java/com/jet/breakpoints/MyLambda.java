@@ -98,8 +98,6 @@ public class MyLambda {
 
         }
 
-
-
         User user1 = new User(); // should stop at User class - default constructor
 
         user1.setName("John"); //BPs in User class

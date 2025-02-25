@@ -8,9 +8,12 @@
 
 package com.jet.breakpoints;
 
+import java.io.IOException;
+
 public class Test {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, IOException {
         System.out.println("wqeqwe");
+        System.in.read();
 
         String t = "";
         for (int i = 0; i < 90; i++) {
