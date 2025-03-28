@@ -1,5 +1,8 @@
 package com.jet.dfa;
 
+import java.time.LocalDate;
+import java.util.Date;
+
 public class DfaExceptionCheck {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
@@ -8,5 +11,6 @@ public class DfaExceptionCheck {
             System.out.println("Processing arr[" + i + "]");
             sum += arr[i];
         }
+
     }
 }

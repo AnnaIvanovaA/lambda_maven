@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class InlineHintCheck {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         // Primitive array
         int[] numbers = {1, 2, 3, 4, 5};
 
@@ -15,6 +15,7 @@ public class InlineHintCheck {
         names.add("Alice");
         names.add("Bob");
         names.add("Charlie");
+        Thread.sleep(10000);
 
         // Map with name-age pairs
         Map<String, Integer> ageMap = new HashMap<>();

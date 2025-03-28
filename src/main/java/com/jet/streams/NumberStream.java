@@ -17,7 +17,7 @@ public class NumberStream {
         String invertedOddNumbers = numbers
                 .stream()
                 .filter(it -> it % 2 != 0).map(it -> -it)
-        .map(Object::toString)
+                .map(Object::toString)
                 .collect(Collectors.joining("; "));
         System.out.println(invertedOddNumbers);
     }

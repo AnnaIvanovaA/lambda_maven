@@ -28,11 +28,11 @@ public class ListStream {
         arr.add(new String[]{"2","3"});
         arr.add(new String[]{"3","4"});
         arr.add(new String[]{"4","5"});
-        arr.add(new String[]{"8","9"});
+        arr.add(new String[]{"5","6"});
 
- arr.add(new String[]{"8","9"});
-  arr.add(new String[]{"8","9"});
-arr.add(new String[]{"8","9"});
+ arr.add(new String[]{"5","4"});
+  arr.add(new String[]{"4","4"});
+arr.add(new String[]{"5","3"});
         List<String> collect = arr.stream().flatMap(a -> Stream.of(a)).distinct().collect(Collectors.toList());
         System.out.format("collector: %s", collect).println();
 

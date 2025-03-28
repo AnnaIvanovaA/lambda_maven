@@ -10,7 +10,7 @@ public class HotSwapCheck {
     }
 
     public static void printMessage() {
-        System.out.println("some message"); // <- modify this during hotswap
+        System.out.println("cccc message"); // <- modify this during hotswap
     }
 
 }
