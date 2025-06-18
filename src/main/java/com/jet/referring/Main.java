@@ -12,7 +12,7 @@ public class Main {
         node2.setNext(node3);
         node3.setNext(node2);
 
-        //show referring objects for name, hair fields
+        //show referring objects for name, hair field
         Man person1 = new Man("brown", 182, 78000, "Peter");
         Man person2 = person1;
         Man person3 = person2;

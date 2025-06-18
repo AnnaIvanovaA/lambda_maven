@@ -10,6 +10,15 @@ public class CastInEvaluator {
 
         System.out.println((Object)a);
 
+        /* Evaluate this -> Debugger shouldn't freeze IDEA-372876
+        new FutureTask<>(new Runnable(){
+        @Override
+        public void run(){
+            throw new RuntimeException();
+    }
+}, null).get()
+         */
+
         /*
         not fixed yet IDEA-203279
         Expected result: ClassCastException
