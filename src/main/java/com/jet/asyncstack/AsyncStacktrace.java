@@ -5,7 +5,7 @@ import javax.swing.*;
 public class AsyncStacktrace {
     public static void main(String[] args) {
         try {
-            Thread.sleep(100000000);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

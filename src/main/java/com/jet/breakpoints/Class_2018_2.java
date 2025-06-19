@@ -22,6 +22,10 @@ public class Class_2018_2 {
         this.var1 = var1;
     }
 
+    public void foo(int var1, int var2) {
+        this.var1 = var1;
+    }
+
     public String getStr() {
         return str;
     }

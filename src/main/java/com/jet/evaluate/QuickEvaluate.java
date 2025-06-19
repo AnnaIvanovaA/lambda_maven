@@ -16,7 +16,7 @@ public class QuickEvaluate {
         }
 
         public String getSupplierCode() {
-            return supplierCode;
+            return supplierCode + "qqqq";
         }
     }
 }

@@ -22,6 +22,7 @@ class DocumentBuilder {
         // (C) Put a breakpoint at the next code-line -> All values will appear only once (like expected!)
         appendLine(varBasedValue)
     }
+
 }
 
 fun main() {
