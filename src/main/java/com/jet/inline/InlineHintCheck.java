@@ -15,7 +15,7 @@ public class InlineHintCheck {
         names.add("Alice");
         names.add("Bob");
         names.add("Charlie");
-        Thread.sleep(10000);
+        Thread.sleep(100);
 
         // Map with name-age pairs
         Map<String, Integer> ageMap = new HashMap<>();

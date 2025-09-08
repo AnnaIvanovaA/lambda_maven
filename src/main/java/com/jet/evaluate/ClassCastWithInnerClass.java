@@ -10,7 +10,7 @@ public class ClassCastWithInnerClass {
 
         //ClassCast exc
         Object olocal = new LocalClass();
-        //Integer ilocal = (Integer) olocal;
+        Integer ilocal = (Integer) olocal;
 
         //returns result
 

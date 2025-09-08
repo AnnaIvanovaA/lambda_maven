@@ -4,7 +4,7 @@ public class HintsCheck {
 
     public static void main(String[] args) throws InterruptedException {
         System.out.println();
-        Thread.sleep(100);
+        Thread.sleep(150);
         Thread.sleep(1000);
         Thread.sleep(1000);
         Thread.sleep(100);
