@@ -23,6 +23,9 @@ public class Test {
 
         Thread.sleep(100);
 
+
+        System.out.println("several added lines");
+        System.out.println("");
         for (int i = 0; i < 10000000; i++) {
             System.out.println(i);
         }
