@@ -1,0 +1,31 @@
+### 1. Simple GET request
+GET https://jsonplaceholder.typicode.com/posts/1
+Accept: application/json
+
+### 2. GET request with query parameters
+GET https://jsonplaceholder.typicode.com/posts?userId=1
+Accept: application/json
+
+### 3. POST request with JSON body
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+  "title": "Hello IntelliJ!",
+  "body": "This is a test post from IntelliJ HTTP client.",
+  "userId": 123
+}
+
+### 4. PUT request to update a resource
+PUT https://jsonplaceholder.typicode.com/posts/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "Updated title",
+  "body": "Updated body content",
+  "userId": 1
+}
+
+### 5. DELETE request
+DELETE https://jsonplaceholder.typicode.com/posts/1
