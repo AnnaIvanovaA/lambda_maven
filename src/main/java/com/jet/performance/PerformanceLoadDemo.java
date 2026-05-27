@@ -86,10 +86,21 @@ public class PerformanceLoadDemo {
                     long totalMb = runtime.totalMemory() / (1024 * 1024);
                     long maxMb = runtime.maxMemory() / (1024 * 1024);
 
+                    System.out.printf("something");
+                    System.out.println( );
+
                     System.out.printf(
                             "Used memory: %d MB | Heap: %d MB | Max heap: %d MB | Held blocks: %d%n",
                             usedMb, totalMb, maxMb, memoryHog.size()
                     );
+
+
+
+                    System.out.println();
+                    String dddd = "DDDD";
+                    System.out.println(dddd);
+
+
 
                     Thread.sleep(1000);
                 }

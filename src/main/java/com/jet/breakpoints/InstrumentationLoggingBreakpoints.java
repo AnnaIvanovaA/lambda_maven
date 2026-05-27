@@ -22,7 +22,7 @@ public class InstrumentationLoggingBreakpoints {
 
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
-            doWork(i);  // ← SET BREAKPOINT HERE  |  log expr: "Counter: " + i  |  Suspend: None
+            doWork(i);  // ← SET BREAKPOINT HERE  |  log expr: "Counter: " + i 
         }
         System.out.println("TC-6 done — check debugger console for 10 log lines");
     }

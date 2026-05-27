@@ -6,8 +6,9 @@ import static java.util.concurrent.Executors.newFixedThreadPool;
 
 public class MainApp {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         OrderController controller = new OrderController();
+        Thread.sleep(100000);
 
         try (ExecutorService executor = newFixedThreadPool(3)) {
 

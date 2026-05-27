@@ -65,6 +65,9 @@ public class InstrumentationConditionalBreakpoints {
         for (int i = 0; i < 5; i++) {
             System.out.println("i = " + i);  // ← SET BREAKPOINT HERE  |  condition: args.length >= 0
         }
+        if (args == null) {
+            System.out.println("TC-4 done");
+        }
         System.out.println("TC-4 done");
     }
 
