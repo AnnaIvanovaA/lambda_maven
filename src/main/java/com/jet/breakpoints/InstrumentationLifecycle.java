@@ -2,7 +2,7 @@ package com.jet.breakpoints;
 
 /**
  * Lifecycle and edge-case tests for breakpoint instrumentation.
- *
+ * <p>
  * TC-15 — disable and re-enable during session:
  *          Set conditional breakpoint in tc15 loop (condition: i == 3). Let it fire.
  *          Disable the breakpoint, continue, then re-enable.

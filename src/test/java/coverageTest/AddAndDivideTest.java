@@ -11,7 +11,7 @@ public class AddAndDivideTest {
 
     @Test
     void testAdd() {
-        assertEquals(5, calculator.add(2, 3));
+        assertEquals(10, calculator.add(2, 3));
     }
 
     @Test

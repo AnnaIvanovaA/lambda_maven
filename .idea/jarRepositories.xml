@@ -2,9 +2,94 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-cdn-azul-com-zulu-embedded-bin" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-cdn-azul-com-zulu-embedded-bin" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/cdn.azul.com/zulu-embedded/bin" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-www-jetbrains-com-intellij-repository-releases" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-www-jetbrains-com-intellij-repository-releases" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/www.jetbrains.com/intellij-repository/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven-central" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-public-p-compose-dev" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-public-p-compose-dev" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven.pkg.jetbrains.space/public/p/compose/dev" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-plugins-gradle-org" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-plugins-gradle-org" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/plugins.gradle.org" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kodein-framework-kodein-di" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kodein-framework-kodein-di" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/kodein-framework/Kodein-DI" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-kotlin-bootstrap" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-kotlin-bootstrap" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/kotlin/kotlin-bootstrap" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-kotlin-p-kotlin-eap" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-kotlin-p-kotlin-eap" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven.pkg.jetbrains.space/kotlin/p/kotlin/eap" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-repo-spring-io-milestone" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-repo-spring-io-milestone" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/repo.spring.io.milestone" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-kotlin-bintray-com-kotlin-ide-plugin-dependencies" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-kotlin-bintray-com-kotlin-ide-plugin-dependencies" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/kotlin.bintray.com/kotlin-ide-plugin-dependencies" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-kotlin-p-kotlin-dev" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-kotlin-p-kotlin-dev" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven.pkg.jetbrains.space/kotlin/p/kotlin/dev" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-download-pgp-verifier" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-download-pgp-verifier" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/download-pgp-verifier" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-exasol-com-releases" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-exasol-com-releases" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven.exasol.com.releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-kotlin-p-kotlin-kotlin-ide" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-kotlin-p-kotlin-kotlin-ide" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven.pkg.jetbrains.space/kotlin/p/kotlin/kotlin-ide" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-jetbrains-maven-patched" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-jetbrains-maven-patched" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/jetbrains/maven-patched" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-d10xa-maven" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-d10xa-maven" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/d10xa/maven" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-services-gradle-org" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-services-gradle-org" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/services.gradle.org" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -12,9 +97,439 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-apache-org-xsd" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-apache-org-xsd" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven.apache.org/xsd" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-jetbrains-bintray-com-space" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-jetbrains-bintray-com-space" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/jetbrains.bintray.com/space" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-secure-index-cdn-jetbrains-com" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-secure-index-cdn-jetbrains-com" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/secure.index-cdn.jetbrains.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-github-com-adoptopenjdk-openjdk14-binaries-releases-download" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-github-com-adoptopenjdk-openjdk14-binaries-releases-download" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/github.com/AdoptOpenJDK/openjdk14-binaries/releases/download" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-ktor" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-ktor" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/kotlin/ktor" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-wormhole" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-wormhole" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/wormhole" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-plugins-jetbrains-com-maven" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-plugins-jetbrains-com-maven" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/plugins.jetbrains.com/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-packages-jetbrains-team-maven-p-intellij-plugin-verifier-intellij-plugin-verifier" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-packages-jetbrains-team-maven-p-intellij-plugin-verifier-intellij-plugin-verifier" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/packages.jetbrains.team/maven/p/intellij-plugin-verifier/intellij-plugin-verifier" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-spring-io-libs-milestone" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-spring-io-libs-milestone" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/spring-io-libs-milestone" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-packages-jetbrains-team-maven-p-ki-maven" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-packages-jetbrains-team-maven-p-ki-maven" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/packages.jetbrains.team/maven/p/ki/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-repo-eclipse-org-content-repositories-egit-releases" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-repo-eclipse-org-content-repositories-egit-releases" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/repo.eclipse.org/content/repositories/egit-releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-build-shibboleth-maven-releases" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-build-shibboleth-maven-releases" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/build-shibboleth-maven-releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-maven-eveoh-releases" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-maven-eveoh-releases" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/maven-eveoh-releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-jetbrains-bintray-com-teamcity-rest-client" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-jetbrains-bintray-com-teamcity-rest-client" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/jetbrains.bintray.com/teamcity-rest-client" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-oss-sonatype-org-content-repositories-staging" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-oss-sonatype-org-content-repositories-staging" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/oss.sonatype.org/content/repositories/staging" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-groovy" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-groovy" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com.groovy" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-intellij-dependencies" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-intellij-dependencies" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/intellij-dependencies" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-repo-grails-org-grails-core" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-repo-grails-org-grails-core" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/repo.grails.org/grails/core" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-kotlin-p-kotlin-kotlin-plugin" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-kotlin-p-kotlin-kotlin-plugin" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven.pkg.jetbrains.space/kotlin/p/kotlin/kotlin-plugin" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-repository-apache-org-releases" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-repository-apache-org-releases" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/repository-apache-org-releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-jcenter" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-jcenter" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/jcenter" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-jetbrains-scala-plugin-deps" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-jetbrains-scala-plugin-deps" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/jetbrains/scala-plugin-deps" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-oss-sonatype-org-content-repositories-releases" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-oss-sonatype-org-content-repositories-releases" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/oss.sonatype.org/content/repositories/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-packages-jetbrains-team-maven-p-skija-maven" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-packages-jetbrains-team-maven-p-skija-maven" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/packages.jetbrains.team/maven/p/skija/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-google-com-dl-android-studio-ide-zips" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-google-com-dl-android-studio-ide-zips" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.google.com/dl/android/studio/ide-zips" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-jetbrains-bintray-com-xodus" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-jetbrains-bintray-com-xodus" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/jetbrains.bintray.com/xodus" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-www-jetbrains-com-jps-cache-intellij" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-www-jetbrains-com-jps-cache-intellij" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/www.jetbrains.com/jps-cache/intellij" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-kotlinx-html" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-kotlinx-html" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/kotlin/kotlinx.html" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-kotlinx" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-kotlinx" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/kotlin/kotlinx" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-spring-plugins-release" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-spring-plugins-release" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/spring-plugins-release" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-kotlin-js-wrappers" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-kotlin-js-wrappers" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/kotlin/kotlin-js-wrappers" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-cy6ergn0m-maven" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-cy6ergn0m-maven" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/cy6ergn0m/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-kotlin-eap" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-kotlin-eap" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/kotlin-eap" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-packages-jetbrains-team-maven-p-jcs-maven" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-packages-jetbrains-team-maven-p-jcs-maven" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/packages.jetbrains.team/maven/p/jcs/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-build-shibboleth-nexus" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-build-shibboleth-nexus" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/build-shibboleth-nexus" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-repo-jenkins-ci-org-releases" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-repo-jenkins-ci-org-releases" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/repo.jenkins-ci.org.releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-download-jetbrains-com" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-download-jetbrains-com" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/download.jetbrains.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-oss-sonatype-org-content-repositories-snapshots" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-oss-sonatype-org-content-repositories-snapshots" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/oss.sonatype.org/content/repositories/snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-public-p-ktor-eap" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-public-p-ktor-eap" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven.pkg.jetbrains.space/public/p/ktor/eap" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-spring-libs-milestone" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-spring-libs-milestone" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/spring-libs-milestone" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-konsoletyper-teavm" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-konsoletyper-teavm" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/konsoletyper/teavm" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-repo-maven-apache-org-maven2" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-repo-maven-apache-org-maven2" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-kotlin-dev" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-kotlin-dev" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/kotlin/kotlin-dev" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-kotlin-p-kotlin-bootstrap" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-kotlin-p-kotlin-bootstrap" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven.pkg.jetbrains.space/kotlin/p/kotlin/bootstrap" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-packages-confluent-io-maven-" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-packages-confluent-io-maven-" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/packages.confluent.io/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-public-p-space-sdk-maven" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-public-p-space-sdk-maven" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven.pkg.jetbrains.space/public/p/space-sdk/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-kotlin-bintray-com-dukat" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-kotlin-bintray-com-dukat" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/kotlin.bintray.com/dukat" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-www-jetbrains-com-intellij-repository-nightly" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-www-jetbrains-com-intellij-repository-nightly" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/www.jetbrains.com/intellij-repository/nightly" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-corretto-aws-downloads-resources" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-corretto-aws-downloads-resources" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/corretto.aws/downloads/resources" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-packages-jetbrains-team-maven-p-grazi-grazie-platform-public" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-packages-jetbrains-team-maven-p-grazi-grazie-platform-public" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/packages.jetbrains.team/maven/p/grazi/grazie-platform-public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-jitpack-io" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-jitpack-io" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/jitpack.io" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-downloads-gradle-org" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-downloads-gradle-org" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/downloads.gradle.org" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-apache-org-groups-snapshots" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-apache-org-groups-snapshots" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/apache-org-groups-snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-splunk-jfrog-ext-releases-local" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-splunk-jfrog-ext-releases-local" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/splunk-jfrog-ext-releases-local" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-spring-release" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-spring-release" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/spring-release" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-google-com-android-maven2" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-google-com-android-maven2" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.google.com.android.maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-scalamacros-maven" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-scalamacros-maven" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/scalamacros/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-repo-typesafe-com-typesafe-ivy-releases" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-repo-typesafe-com-typesafe-ivy-releases" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/repo.typesafe.com/typesafe/ivy-releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-spring-snapshots" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-spring-snapshots" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/spring-snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-oss-jfrog-snapshot-local" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-oss-jfrog-snapshot-local" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/oss-jfrog-snapshot-local" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-kotlin-p-kotlin-kotlin-dependencies" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-kotlin-p-kotlin-kotlin-dependencies" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven.pkg.jetbrains.space/kotlin/p/kotlin/kotlin-dependencies" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-fabric-io-public" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-fabric-io-public" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven.fabric.io/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-repo-terracotta" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-repo-terracotta" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/repo-terracotta" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-exposed" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-kotlin-exposed" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/kotlin/exposed" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-repository-apache-snapshots" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-repository-apache-snapshots" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/repository-apache-snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-kotlin-bintray-com-kotlin-plugin" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-kotlin-bintray-com-kotlin-plugin" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/kotlin.bintray.com/kotlin-plugin" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-download-eclipse-org" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-download-eclipse-org" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/download.eclipse.org" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-public-p-space-maven" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-pkg-jetbrains-space-public-p-space-maven" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven.pkg.jetbrains.space/public/p/space/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-cdn-azul-com-zulu-bin" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-cdn-azul-com-zulu-bin" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/cdn.azul.com/zulu/bin" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-packages-jetbrains-team-maven-p-intellij-plugin-verifier-intellij-plugin-structure" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-packages-jetbrains-team-maven-p-intellij-plugin-verifier-intellij-plugin-structure" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/packages.jetbrains.team/maven/p/intellij-plugin-verifier/intellij-plugin-structure" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--packages-jetbrains-team-maven-p-ij-repository-mapr-com" />
+      <option name="name" value="cache--packages-jetbrains-team-maven-p-ij-repository-mapr-com" />
+      <option name="url" value="https://packages.jetbrains.team/maven/p/ij/repository-mapr-com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-clojars-org-repo" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-clojars-org-repo" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/clojars.org/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-google-com-android-repository" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-google-com-android-repository" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.google.com/android/repository" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-www-jetbrains-com-intellij-repository-snapshots" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-www-jetbrains-com-intellij-repository-snapshots" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/www.jetbrains.com/intellij-repository/snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-maven-central" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-maven-central" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/maven-central" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-intellij-plugin-service" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-intellij-plugin-service" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/intellij-plugin-service" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-jetbrains-bintray-com-wormhole" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-jetbrains-bintray-com-wormhole" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/jetbrains.bintray.com/wormhole" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-kotlin-bintray-com-kotlin-dependencies" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-kotlin-bintray-com-kotlin-dependencies" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/kotlin.bintray.com/kotlin-dependencies" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-jetbrains-bintray-com-kotlin-native-dependencies" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-jetbrains-bintray-com-kotlin-native-dependencies" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/jetbrains.bintray.com/kotlin-native-dependencies" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-archive-apache-org-dist-maven" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-archive-apache-org-dist-maven" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/archive.apache.org/dist/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-scalacenter-releases" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-dl-bintray-com-scalacenter-releases" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/dl.bintray.com/scalacenter/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-teamcity-rest-client" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-teamcity-rest-client" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/teamcity-rest-client" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-downloads-apache-org" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-downloads-apache-org" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/downloads.apache.org" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-intellij-third-party-dependencies" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-intellij-third-party-dependencies" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/intellij-third-party-dependencies" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-repository-jboss-org-nexus-content-repositories-public" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-repository-jboss-org-nexus-content-repositories-public" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/repository.jboss.org/nexus/content/repositories/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cache--cache-redirector-jetbrains-com-teavm-org-maven-repository" />
+      <option name="name" value="cache--cache-redirector-jetbrains-com-teavm-org-maven-repository" />
+      <option name="url" value="https://cache-redirector.jetbrains.com/teavm.org/maven/repository" />
     </remote-repository>
   </component>
 </project>

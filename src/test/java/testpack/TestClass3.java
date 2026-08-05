@@ -7,7 +7,7 @@ public class TestClass3 {
 
     @Test
     public void test_Method(){
-        System.out.println();
+        System.out.println("output from the test");
         assertEquals(2+2, 4);
     }
 }

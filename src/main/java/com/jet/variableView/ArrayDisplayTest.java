@@ -10,6 +10,11 @@ public class ArrayDisplayTest {
             intArray[i] = i;
         }
 
+        byte[] byteArray = new byte[2000];
+        for (int i = 0; i < byteArray.length; i++) {
+            byteArray[i] = (byte) i;
+        }
+
         // Double array with 2000 elements
         double[] doubleArray = new double[2000];
         for (int i = 0; i < doubleArray.length; i++) {
@@ -40,6 +45,27 @@ public class ArrayDisplayTest {
         for (int i = 0; i < longArray.length; i++) {
             longArray[i] = i * 1000L;
         }
+        String a = "\"";
+        String b = "{";
+        String c = "[";
+        String d = "<";
+        String e = "\\";
+        String f = "'";
+        String g = "&";
+        String h = "\0";
+        String ik = "\n";
+        String j = "\uFEFF";
+
+        String k = "<";
+        String l = ">";
+        String m = "&";
+        String n = "'";
+        String o = "\"";
+        String p = "\uFEFF";
+        String q = "\u200B";
+        String r = "\u00A0";
+
+        String pp = "\"\"\b\n\"";
 
         // Float array with 7000 elements
         float[] floatArray = new float[7000];

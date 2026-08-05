@@ -9,7 +9,7 @@ public class JUnitHighlight {
     void one() {
         System.out.println("ping 2");
         System.out.println("ping common");
-        fail("boom");
+        fail("Message from Assert");
     }
 
     @Test
@@ -17,5 +17,12 @@ public class JUnitHighlight {
         System.out.println("ping 1");
         System.out.println("ping common");
         Thread.sleep(5000);
+    }
+
+    @Test
+    void threeManyLines() {
+        for (int i = 0; i < 100_000; i++) {
+            System.out.println("test tick " + i);
+        }
     }
 }

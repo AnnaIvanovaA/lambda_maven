@@ -12,7 +12,7 @@ public class UserServiceTest {
 
     @Test
     void calculateUserScoreValid() {
-        assertEquals(8, userService.calculateUserScore(10, 2));
+        assertEquals(44, userService.calculateUserScore(10, 2));
     }
 
     @Test

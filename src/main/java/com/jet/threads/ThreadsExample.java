@@ -16,7 +16,6 @@ public class ThreadsExample {
 
         // main thread
         String mainThreadName = Thread.currentThread().getName();
-        System.out.println(mainThreadName + ": started method main");
         Thread thread = new Printer();
         //thread.run() -- run thread (for main)
         thread.start();         //create new thread for printer, run thread
@@ -35,11 +34,11 @@ public class ThreadsExample {
         Thread current = Thread.currentThread();
         StackTraceElement[] methods = current.getStackTrace();
 
-        for(var info: methods)
+        for (var info : methods)
             System.out.println(info);
 
         Thread.sleep(30000);
-          System.out.println("at the main method end");
+        System.out.println("at the main method end");
     }
 
     static class Printer extends Thread {

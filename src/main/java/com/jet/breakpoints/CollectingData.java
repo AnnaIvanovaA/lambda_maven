@@ -22,6 +22,8 @@ public class CollectingData {
             list.add("Hey - I'm busy looking at: " + i);
 
         }
+        list.forEach(System.out::println);
+
 
     }
 

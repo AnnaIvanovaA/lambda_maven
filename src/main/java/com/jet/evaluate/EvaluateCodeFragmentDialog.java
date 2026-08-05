@@ -52,6 +52,7 @@ public class EvaluateCodeFragmentDialog {
         debugTags.put("environment", environment);
 
         String privateNote = buildPrivateNote(customer, breakdown, debugTags);
+
         LocalDate followUpDate = customer.registeredAt().plusDays(customer.tier() == Tier.GOLD ? 7 : 14);
         int loyaltyPreview = invoiceLines.stream().mapToInt(InvoiceLine::quantity).sum() * customer.tier().multiplier();
 

@@ -17,4 +17,10 @@ public class PrintHelloTest {
     void greetWithoutName() {
         assertEquals("Hello, stranger!", service.greet(""));
     }
+
+    @Test
+    public void test_Method(){
+        System.out.println("output from the test");
+        assertEquals(2+2, 20);
+    }
 }
